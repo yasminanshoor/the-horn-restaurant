@@ -89,7 +89,7 @@ header li {
   background: url('../images/restaurant.jpeg');
   background-size: cover;
   background-attachment: fixed;
-  min-height: 75%;
+  min-height: 85%;
 
 }
 
@@ -121,6 +121,13 @@ header li {
   background-color: #BDBDBD;
 }
 
+#about {
+  background: url('../images/africa2.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 75%;
+
+}
 #about img {
   width: 240px;
 }
