@@ -110,6 +110,13 @@ header li {
 
 }
 
+#home h3 {
+  margin: 150px 0 0 1200px;
+  font-family: "Satisfy";
+  color: white;
+
+}
+
 #home img {
   background-size: cover;
   width: 100%;
@@ -122,9 +129,8 @@ header li {
 }
 
 #about {
-  background: url('../images/africa2.jpeg');
+  background: url('../images/sunset2.jpeg');
   background-size: cover;
-  background-attachment: fixed;
   min-height: 75%;
 
 }
@@ -147,9 +153,9 @@ header li {
 }
 
 #about p {
-  font-size: 25px;
-  font-family: "Satisfy";
-  color: #2E2E2E;
+  font-size: 20px;
+  font-family: "Merienda";
+  color: #ffffff;
 }
 
 /* MENU----*/
@@ -179,18 +185,17 @@ header li {
   font-size: 25px;
 }
 
-
 #menu dd {
-  font-family: arial;
+  font-family: "Merienda";
   font-size: 15px;
 }
 
 /* GALLERY---------------------------*/
 
 #gallery {
-  background-color: #BDBDBD;
-  background: url('../images/sunset.jpeg');
+  background-color: #ffd480;
 }
+
 #gallery h3 {
   font-size: 75px;
   font-family: "Satisfy";
@@ -225,7 +230,7 @@ header li {
 }
 
 form input, textarea, .input_text {
-  font-family: "Satisfy";
+  font-family: "Merienda";
   font-size: 15px;
   margin-bottom: 10px;
   border-radius: 2px;
@@ -268,13 +273,16 @@ form textarea {
 
 #contact p {
   font-size: 20px;
-  font-family: "Satisfy";
+  font-family: "Merienda";
   color: grey;
 }
 
 /* BOOK---**/
 #book {
   background-color: #BDBDBD;
+  background: url('../images/table2.jpeg');
+  background-attachment: fixed;
+
 }
 #book h3 {
   font-size: 70px;
@@ -282,8 +290,8 @@ form textarea {
 }
 
 form input, textarea, .input_text {
-  font-family: "Satisfy";
-  font-size: 20px;
+  font-family: "Merienda";
+  font-size: 16px;
   margin-bottom: 10px;
   border-radius: 12px;
   border: 2px solid;
@@ -333,7 +341,7 @@ footer {
 
 footer p {
   font-size: 15px;
-  font-family: "Satisfy";
+  font-family: "c ";
   color: #f0f0f0;
 }
 
@@ -349,12 +357,7 @@ footer p {
   display: inline-block;
 }
 
-.fa:hover {
-  background: #ffffff;
-  color: black;
-  text-decoration: none;
-}
 
-.fa a:hover {
-  color: black;
+.fa:hover {
+  color: grey;
 }
