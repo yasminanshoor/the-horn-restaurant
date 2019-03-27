@@ -86,7 +86,7 @@ header li {
 
 }
 
-/* HOME----- */
+/* HOME***************************/
 
 #home {
   background: url('../images/restaurant.jpeg');
@@ -120,9 +120,10 @@ header li {
 
 }
 
+
 #home img {
   background-size: cover;
-  width: 100%;
+  width: 90%;
 }
 
 /* ABOUT------*/
